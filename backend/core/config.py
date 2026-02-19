@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
     # OpenAI
-    # openai_api_key: str = "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"
+    # openai_api_key: str = "sk-proj-TZEIAk1wJPfV-ct6RGqFilcj2-         IiHTQAhHOLcokhlrFAvA0HQnqYLiMCLMJ_BAxtUKu5xs__RsT3BlbkFJLUVlDIGSwxgnpFbYRFLLto-FKPelBkiorKXeMKe54adud-r0zmXqlW65k4VBbSKcJ212b9SKAA"
     # Embedding
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     # Application
