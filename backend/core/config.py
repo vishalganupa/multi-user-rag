@@ -5,11 +5,11 @@ class Settings(BaseSettings):
     # Database
     database_url: str = "sqlite:///./rag_database.db"
     # JWT
-    secret_key: str = "9ae66d1ffe7c2880c7dae5a157b26943d2dd8facbaa79003fe15d9f98ea90466"
+    # secret_key: str = "9ae66d1ffe7c2880c7dae5a157b26943d2dd8facbaa79003fe15d9f98ea90466"
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
     # OpenAI
-    openai_api_key: str = "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"
+    # openai_api_key: str = "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"
     # Embedding
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     # Application
