@@ -1,5 +1,3 @@
-# requirements.txt
-
 fastapi
 uvicorn[standard]
 python-multipart
@@ -12,6 +10,7 @@ langchain-core
 openai
 python-dotenv
 pydantic
+email-validator
 bcrypt
 python-jose[cryptography]
 passlib[bcrypt]
