@@ -1,30 +1,22 @@
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+# requirements.txt
 
-python-multipart==0.0.6
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-
-pydantic==2.5.0
-pydantic-settings==2.1.0
-
-python-dotenv==1.0.0
-
-PyPDF2==3.0.1
-beautifulsoup4==4.12.2
-requests==2.31.0
-lxml==4.9.3
-
-sentence-transformers==2.6.1   ✅ updated
-faiss-cpu==1.13.2
-numpy>=1.26.0                 ✅ fix compatibility
-
-openai==1.3.7
-tiktoken==0.5.1
-
-setuptools
-wheel
-pip
+fastapi
+uvicorn
+python-multipart
+pymongo
+motor
+chromadb
+langchain
+langchain-community
+langchain-core
+openai
+python-dotenv
+pydantic
+bcrypt
+python-jose[cryptography]
+passlib[bcrypt]
+tiktoken
+pypdf
+sentence-transformers==2.6.1
+httpx
+certifi
